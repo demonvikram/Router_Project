@@ -28,7 +28,7 @@ const LoginForm=({setIsLoggedIn})=>{
     return(
         <form onSubmit={submitHandler} className="mt-4">
             <label>
-                <p className="font-semibold text-white">Email Address<sup className="text-red-500">*</sup></p>
+                <p className="font-semibold text-white">Email<sup className="text-red-500">*</sup></p>
                 <input type="email"
                     required
                     placeholder="Email"
